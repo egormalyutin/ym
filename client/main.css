@@ -1,0 +1,44 @@
+.playback-button-prev,
+.playback-button-next {
+    padding: 10px;
+}
+
+.playback-button-play {
+    padding: 20px;
+}
+
+.playback-box {
+    /* background: red; */
+}
+
+.playback-track-name {
+    /* font-size: 30px; */
+}
+
+.playback {
+    border-top: 1px solid color-mix(in srgb, currentColor 25%, transparent);
+    padding: 15px;
+}
+
+.playback-cover {
+    border-radius: 5px;
+}
+
+.tracks,
+.playlists {
+    padding: 30px;
+}
+
+.track {
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.05s linear background-color;
+}
+
+.track:hover {
+    background: color-mix(in srgb, currentColor 25%, transparent);
+}
+
+.track .artist {
+    opacity: 50%;
+}

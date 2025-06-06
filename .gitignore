@@ -1,0 +1,6 @@
+/.venv
+/yandex-music-api
+/cache
+/main.py
+
+__pycache__
